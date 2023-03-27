@@ -17,11 +17,11 @@ async function load_model() {
 
 let classesDir = {
     1: {
-        name: 'Kangaroo',
+        name: 'Rocket',
         id: 1,
     },
     2: {
-        name: 'Other',
+        name: 'Incomplete Rocket',
         id: 2,
     }
 }
