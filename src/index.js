@@ -11,7 +11,7 @@ async function load_model() {
     // It's possible to load the model locally or from a repo
     // You can choose whatever IP and PORT you want in the "http://127.0.0.1:8080/model.json" just set it before in your https server
     //const model = await loadGraphModel("http://127.0.0.1:8080/model.json");
-    const model = await loadGraphModel("https://github.com/scilburns/TFJS_ObjectDetection_testing/blob/d35f49fd9b61506052f710f98927f6c043f0de16/web-model/trigger/model.json");
+    const model = await loadGraphModel("https://raw.githubusercontent.com/scilburns/TFJS_ObjectDetection_testing/d35f49fd9b61506052f710f98927f6c043f0de16/web-model/trigger/model.json?token=GHSAT0AAAAAACAULYO3XEUBSIU4D2BPKD5AZBBXVBA");
     return model;
   }
 
